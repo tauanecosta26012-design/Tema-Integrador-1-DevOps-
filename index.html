@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devops</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+
     <script src="https://cdn.tailwindcss.com"></script>    
     <script>
         tailwind.config = {
@@ -18,13 +25,16 @@
     </script>
 </head>
 
-<body class="min-h-screen flex flex-col bg-white dark:bg-gray-900">
+<body class="min-h-screen flex flex-col bg-white dark:bg-gray-900 overflow-x-hidden">
 
     <header class="relative">
 
         <div class="bg-blue-800 dark:bg-blue-900 text-white flex flex-col items-center justify-center py-4 px-4">
+
             <h1 class="font-bold text-4xl md:text-7xl hover:text-blue-400">DEVOPS</h1>
+
             <p class="text-sm md:text-base">A união da velocidade do desenvolvimento com a estabilidade da operação</p>    
+
         </div>
 
         <div>
@@ -40,10 +50,10 @@
     <main class="flex flex-col gap-5 flex-1 p-6 max-w-7xl mx-auto space-y-1">
 
         <section> <!--Oque é Devops-->
-            <br>
-            <div class="flex  bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900 py-1 px-4 text-center">
+            <div class="flex bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900 py-1 px-4 text-center">
                 <h2>O que é Devops?<h2>
             </div>
+
             <div class="flex flex-col items-center p-5 dark:text-white">
                 <p>
                     DevOps é um campo que visa unificar o processo de desenvolvimento de software com o de operações em uma abordagem integrada. A sua marca registrada é a integração contínua e entrega contínua (CI/CD), que permitem atualizações menores e rápidas, onde pequenas alterações de código são integradas automaticamente à base principal, testadas e preparadas para um ambiente de produção.
