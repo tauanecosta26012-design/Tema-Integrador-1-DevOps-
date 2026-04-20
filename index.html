@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,7 @@
     }
     </script>
 </head>
+
 <body class="min-h-screen flex flex-col bg-white dark:bg-gray-900">
 
     <header class="relative">
@@ -35,20 +37,31 @@
 
     </header>
 
-    <main class="flex flex-col gap-5 flex-1 p-6 max-w-7xl mx-auto space-y-8">
+    <main class="flex flex-col gap-5 flex-1 p-6 max-w-7xl mx-auto space-y-1">
 
-        <section>
+        <section> <!--Oque é Devops-->
             <br>
             <div class="flex  bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900">
                 <h2>O que é Devops?<h2>
             </div>
             <div class="flex flex-col items-center p-5 dark:text-white">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eum fugit delectus excepturi vero corrupti error nemo cumque, illo, beatae quos eos quidem voluptatem incidunt? Natus quidem quas nostrum incidunt.</p>
+                <p>
+                    DevOps é um campo que visa unificar o processo de desenvolvimento de software com o de operações em uma abordagem integrada. A sua marca registrada é a integração contínua e entrega contínua (CI/CD), que permitem atualizações menores e rápidas, onde pequenas alterações de código são integradas automaticamente à base principal, testadas e preparadas para um ambiente de produção.
+                </p>
+                
+                <p>
+                    <br>
+                    Nesse contexto, segundo a IBM (2026, online), DevOps é “uma metodologia de desenvolvimento de software que acelera a entrega de aplicações e serviços de alto desempenho ao combinar e automatizar o trabalho das equipes de desenvolvimento de software (Dev) e operações de TI (Ops)”.
+                </p>
+                <p>
+                    <br>
+                    Seu principal objetivo é reduzir o tempo de entrega e aumentar a qualidade das aplicações, permitindo que sistemas sejam atualizados de forma rápida, segura e escalável.
+                </p>
             </div>
             
         </section>
 
-        <section>
+        <section> <!--Oque um profissional-->
             <div class="flex  bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900">
                 <h2>O que faz um profissional dessa área?<h2>
             </div>            
@@ -57,25 +70,46 @@
             </div>
         </section>
         
-        <section>
+        <section> <!--Tecnologias-->
             <div class="flex  bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900">
-            <h2>Principais tecnologias utilizadas</h2>
+            <h2>Tecnologias</h2>
             </div>
+            <div class="flex flex-col items-center p-5 gap-5 dark:text-white">
+                <p>
+                    Existem diversas tecnologias que viabilizam as práticas de DevOps, entre as quais se destacam aquelas relacionadas ao <abbr title="Integração Contínua (Continuous Integration) e Entrega/Implantação Contínua (Continuous Delivery/Deployment)">CI/CD</abbr> e à automação de processos, permitindo a execução de testes e a implantação de software, reduzindo erros e melhorando a eficiência do ciclo de desenvolvimento.
+                </p>
+
+                <div class="flex bg-transparent items-center justify-center text-blue-800 rounded-3xl w-1/5 border-blue-800 border-2 dark:border-blue-900 overflow-hidden h-10">
+                    <h3><img src="imagens/Docker-Logo.png" class="w-24" alt="Docker"></h3>
+                </div>
+
+                <p>
+                    Uma dessas tecnologias é o Docker, que permite a “containerização” do software, que resulta em aplicações e dependências “empacotadas” em um só ambiente consistente que impede problemas relacionados a diferentes sistemas operacionais ou até diferentes configurações. Em resumo docker permite separar aplicações de suas infraestruturas para uma entrega de software veloz (Docker, s.d., online).
+                </p>
+                
+                <div class="flex bg-transparent items-center justify-center text-blue-800 rounded-3xl w-1/5 border-blue-800 border-2 dark:border-blue-900 overflow-hidden h-10">
+                    <h3>
+                      <img src="imagens/pipeline.png" class="w-32" alt="AWS codepipeline"></h3>  
+                    </h3>
+                </div>
+
+                <p>
+                    A Amazon possui um grande ecossistema de ferramentas, uma delas é o AWS CodePipeline, um serviço de integração e entrega contínua que automatiza o processo de construção, teste e implantação de aplicações. Segundo a documentação da Amazon Web Services (s.d., online): “O CodePipeline automatiza totalmente o seu processo de liberação de ponta a ponta, começando pelo repositório de código-fonte até as etapas de build, teste e implantação. Você pode impedir que alterações avancem no pipeline incluindo uma ação de aprovação manual em qualquer estágio, exceto no estágio de origem (Source). É possível realizar liberações quando desejar, da maneira que preferir, nos sistemas de sua escolha, em uma única instância ou em múltiplas instâncias”.
+                </p>
+
+            </div>
+        </section>
+
+        <section> <!--Mercado de Trabalho(Empresas, Salário)-->
+            <div class="flex  bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900">
+                <h2>Média salarial</h2>
+            </div>           
             <div class="flex flex-col items-center p-5 dark:text-white">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eum fugit delectus excepturi vero corrupti error nemo cumque, illo, beatae quos eos quidem voluptatem incidunt? Natus quidem quas nostrum incidunt.</p>
             </div>
         </section>
 
-        <section>
-            <div class="flex  bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900">
-                <h2>Quais as Principais empresas que contratam esse tipo de profissional?</h2>
-            </div>
-            <div class="flex flex-col items-center p-5 dark:text-white">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eum fugit delectus excepturi vero corrupti error nemo cumque, illo, beatae quos eos quidem voluptatem incidunt? Natus quidem quas nostrum incidunt.</p>
-            </div>
-        </section>
-
-        <section>
+        <section> <!--ODS9-->
             <div class="flex  bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900">
                 <h2>Como o Devops pode contribuir para a ods 9?</h2>
             </div>
@@ -86,22 +120,15 @@
             </div>
         </section>
 
-        <section>
-            <div class="flex  bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900">
-                <h2>Média salarial</h2>
-            </div>           
-            <div class="flex flex-col items-center p-5 dark:text-white">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eum fugit delectus excepturi vero corrupti error nemo cumque, illo, beatae quos eos quidem voluptatem incidunt? Natus quidem quas nostrum incidunt.</p>
-            </div>
-        </section>
-
-        <section>
+        <section> <!--Integrantes-->
             <hr class="border-t border-gray-300 my-6">
 
-            <div class="flex  bg-blue-800 items-center justify-center text-white font-bold rounded-3xl w-1/3 mx-auto text-xl dark:bg-blue-900">
+            <div class="flex bg-blue-800 items-center justify-center text-white font-bold rounded-3xl w-1/3 mx-auto text-xl dark:bg-blue-900">
                 <h2>Integrantes do Grupo<h2>
             </div>
-            <div class="dark:text-white flex p-10 items-center justify-center gap-10 text-center">
+
+            <div class="dark:text-white grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 gap-10 text-center justify-items-center">
+
                 <div class="w-80 h-100 flex flex-col items-center gap-5 border-black dark:border-white border-2 rounded-3xl p-10 hover:bg-blue-400">
                     
                     <div class="w-48 h-48 rounded-full overflow-hidden">
