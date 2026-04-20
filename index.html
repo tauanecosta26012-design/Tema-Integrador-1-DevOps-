@@ -12,17 +12,22 @@
         }
     </style>
 
-    <script src="https://cdn.tailwindcss.com"></script>    
+    <script src="https://cdn.tailwindcss.com"></script> <!--Chamando o tailwind-->  
+    
+    <!--Script para o funcionamento do modo escuro-->
     <script>
         tailwind.config = {
             darkMode: "class"
         }
     </script>
+    <!--Script do botão para alternar entre os modos-->
     <script>
         function toggleDark() {
         document.documentElement.classList.toggle("dark");
     }
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!--Script para adicionar gráficos-->
 </head>
 
 <body class="min-h-screen flex flex-col bg-white dark:bg-gray-900 overflow-x-hidden">
@@ -63,6 +68,7 @@
                     <br>
                     Nesse contexto, segundo a IBM (2026, online), DevOps é “uma metodologia de desenvolvimento de software que acelera a entrega de aplicações e serviços de alto desempenho ao combinar e automatizar o trabalho das equipes de desenvolvimento de software (Dev) e operações de TI (Ops)”.
                 </p>
+
                 <p>
                     <br>
                     Seu principal objetivo é reduzir o tempo de entrega e aumentar a qualidade das aplicações, permitindo que sistemas sejam atualizados de forma rápida, segura e escalável.
@@ -89,33 +95,76 @@
                     Existem diversas tecnologias que viabilizam as práticas de DevOps, entre as quais se destacam aquelas relacionadas ao <abbr title="Integração Contínua (Continuous Integration) e Entrega/Implantação Contínua (Continuous Delivery/Deployment)">CI/CD</abbr> e à automação de processos, permitindo a execução de testes e a implantação de software, reduzindo erros e melhorando a eficiência do ciclo de desenvolvimento.
                 </p>
 
-                <div class="flex bg-transparent items-center justify-center text-blue-800 rounded-3xl w-1/5 border-blue-800 border-2 dark:border-blue-900 overflow-hidden h-10">
+                <div class="flex flex-col p-5 bg-transparent items-center justify-center rounded-3xl border-blue-800 border-2 dark:border-blue-900">
                     <h3><img src="imagens/Docker-Logo.png" class="w-24" alt="Docker"></h3>
-                </div>
-
-                <p>
-                    Uma dessas tecnologias é o Docker, que permite a “containerização” do software, que resulta em aplicações e dependências “empacotadas” em um só ambiente consistente que impede problemas relacionados a diferentes sistemas operacionais ou até diferentes configurações. Em resumo docker permite separar aplicações de suas infraestruturas para uma entrega de software veloz (Docker, s.d., online).
-                </p>
                 
-                <div class="flex bg-transparent items-center justify-center text-blue-800 rounded-3xl w-1/5 border-blue-800 border-2 dark:border-blue-900 overflow-hidden h-10">
+
+                    <p>
+                        Uma dessas tecnologias é o Docker, que permite a “containerização” do software, que resulta em aplicações e dependências “empacotadas” em um só ambiente consistente que impede problemas relacionados a diferentes sistemas operacionais ou até diferentes configurações. Em resumo docker permite separar aplicações de suas infraestruturas para uma entrega de software veloz (Docker, s.d., online).
+                    </p>
+                </div>
+                
+                <div class="flex flex-col p-5 bg-transparent items-center justify-center rounded-3xl border-blue-800 border-2 dark:border-blue-900">
+                    
                     <h3>
                       <img src="imagens/pipeline.png" class="w-32" alt="AWS codepipeline"></h3>  
                     </h3>
+
+                    <p>
+                        A Amazon possui um grande ecossistema de ferramentas, uma delas é o AWS CodePipeline, um serviço de integração e entrega contínua que automatiza o processo de construção, teste e implantação de aplicações. Segundo a documentação da Amazon Web Services (s.d., online): “O CodePipeline automatiza totalmente o seu processo de liberação de ponta a ponta, começando pelo repositório de código-fonte até as etapas de build, teste e implantação. Você pode impedir que alterações avancem no pipeline incluindo uma ação de aprovação manual em qualquer estágio, exceto no estágio de origem (Source). É possível realizar liberações quando desejar, da maneira que preferir, nos sistemas de sua escolha, em uma única instância ou em múltiplas instâncias”.
+                    </p>
                 </div>
-
-                <p>
-                    A Amazon possui um grande ecossistema de ferramentas, uma delas é o AWS CodePipeline, um serviço de integração e entrega contínua que automatiza o processo de construção, teste e implantação de aplicações. Segundo a documentação da Amazon Web Services (s.d., online): “O CodePipeline automatiza totalmente o seu processo de liberação de ponta a ponta, começando pelo repositório de código-fonte até as etapas de build, teste e implantação. Você pode impedir que alterações avancem no pipeline incluindo uma ação de aprovação manual em qualquer estágio, exceto no estágio de origem (Source). É possível realizar liberações quando desejar, da maneira que preferir, nos sistemas de sua escolha, em uma única instância ou em múltiplas instâncias”.
-                </p>
-
             </div>
+        </section>
+
+        <section> <!--Certificações-->
+            <div class="flex  bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900 py-1 px-4 text-center">
+            <h2>Certificações</h2>
+            </div>
+            <div class="flex flex-col items-center p-5 gap-5 dark:text-white">
+                
+            <p>
+                Certificações são partes importantes na área DevOps. Existem várias, das quais duas se destacam, sendo elas o AWS Certified DevOps Engineer – Professional (AMAZON WEB SERVICES, s.d., online) e o Microsoft Certified: DevOps Engineer Expert (MICROSOFT, s.d., online). Ambas validam competências em automação de processos, integração contínua e entrega contínua (CI/CD), além de práticas de DevOps em ambientes de nuvem.
+            </p>    
         </section>
 
         <section> <!--Mercado de Trabalho(Empresas, Salário)-->
             <div class="flex  bg-blue-800 items-center justify-center text-white rounded-3xl w-1/1 mx-auto text-xl dark:bg-blue-900 py-1 px-4 text-center">
-                <h2>Média salarial</h2>
+                <h2>Mercado de Trabalho</h2>
             </div>           
             <div class="flex flex-col items-center p-5 dark:text-white">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eum fugit delectus excepturi vero corrupti error nemo cumque, illo, beatae quos eos quidem voluptatem incidunt? Natus quidem quas nostrum incidunt.</p>
+                <p>
+                    O mercado de trabalho valoriza os profissionais especializados na área e atualmente há uma
+                    crescente demanda, o que gera boas oportunidades. No Brasil, atualmente, a média salarial para a
+                    área DevOps fica aproximadamente entre 7 e 12 mil reais por mês (GLASSDOOR, s.d, online).
+                    Porém com o recente crescimento da computação em nuvem, é provável que o setor cresça e se
+                    desenvolva ainda mais em um futuro próximo.
+                </p>
+
+                <p>
+                    <br>
+                    Quando comparamos com áreas de atuação próximas, podemos ver que o salário se mantém competitivo:
+                </p>
+
+                <canvas id="salarios"></canvas>
+                <script>
+                    const ctx = document.getElementById('salarios').getContext('2d');
+                    new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: ['DevOPS', 'Desenvolvedor Backend', 'Arquiteto Cloud'],
+                            datasets: [{
+                                label: 'Média Salarial (R$)',
+                                data: [7000, 4000, 7000],
+                                backgroundColor: '#1e40af'
+                            }]
+                        }
+                    });
+                </script>
+                
+                <p>
+                    Com isso é possível observar que o setor não apresenta desvantagem se comparado com seus semelhantes.
+                </p>
             </div>
         </section>
 
